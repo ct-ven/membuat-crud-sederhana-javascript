@@ -1,0 +1,5 @@
+Fitur sederhana pada CRUD Javascript
+- Create
+- Read
+- Update
+- Delete
