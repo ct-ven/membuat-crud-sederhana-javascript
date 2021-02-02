@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+body{
+  background-color: rgb(168, 168, 168);
+}
+
+.container {
+  background-color: #fff;
+  width: 50%;
+  /* height: 300px; */
+  margin: 100px auto;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.container .form {
+  line-height: 30px;
+}
+
+.form-container{
+  display: flex;
+  border: 1px solid silver;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="text"]{
+  outline: none;
+  margin-left: 10px;
+  border: none;
+  width: 100%;
+}
+
+input[type="submit"]{
+  outline: none;
+  padding: 10px;
+  background: rgb(177, 178, 179);
+  cursor: pointer;
+  letter-spacing: 3px;
+  color: #000;
+  border: none;
+}
+
+input[type="submit"]:active{
+  transform: translateY(5px);
+}
+
+.data-list{
+  margin-top: 10px;
+}
+
+.box-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid silver;
+}
+
+.box-list li {
+  list-style: none;
+  margin-left: 5px;
+  flex: 1;
+}
+
+button {
+  padding: 5px;
+  color: #fff;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-edit{  
+  background: rgb(14, 97, 175);  
+}
+
+.btn-hapus{
+  background: rgb(245, 7, 7);
+}
